@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Yandere Simulator Development Blog</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://yanderedev.wordpress.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/stay/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<script type="text/javascript">
+  WebFontConfig = {"google":{"families":["Arimo:r:latin,latin-ext","Arimo:r,i,b,bi:latin,latin-ext"]},"api_url":"https:\/\/fonts-api.wp.com\/css"};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://s0.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active .site-title, .wf-active .site-title a{font-family:"Arimo",sans-serif;font-style:normal;font-weight:400}.wf-active body, .wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-family:"Arimo",sans-serif}.wf-active .site-description{font-family:"Arimo",sans-serif}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"Arimo",sans-serif;font-style:normal;font-weight:400}.wf-active .navigation-main a{font-family:"Arimo",sans-serif;font-style:normal;font-weight:400}.wf-active #site-navigation .assistive-text a{font-family:"Arimo",sans-serif;font-style:normal;font-weight:400}</style>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//fonts-api.wp.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Yandere Simulator Development Blog &raquo; Feed" href="https://yanderedev.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Yandere Simulator Development Blog &raquo; Comments Feed" href="https://yanderedev.wordpress.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1677072837i&ver=6.4-beta3-56826"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??/wp-content/blog-plugins/wordads/global.css,/wp-content/mu-plugins/jetpack-plugin/sun/modules/infinite-scroll/infinity.css?m=1685115060j&cssminify=yes' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.9.0/build/block-library/style.css?m=1698313083i&cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify {
+	text-align:justify;
+}
+.wp-block-cover__image-background.has-parallax {
+	background-size: cover;
+}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s0.wp.com/_static/??-eJyVjV0OwiAQBi8kEKrR+mA8C4UN2br8hAVNby8mprEvGh8n+82semSB0VJzwGpmFcChAYIAsW4gk1mgCAJv7CIDRmmZd+qb3m+fvJFsivW1ydQ8Rla+dZygeDFRsrceg5qNvYn+NrUqfEGnuC4E/yeKqRg9/9BtemuD1KPUgjFkAlHgLg/KIdd1IdbQNVz0cdTjfhjOp/kJMmh7kg==&cssminify=yes' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-6-1' href='https://s0.wp.com/_static/??/wp-content/mu-plugins/core-compat/wp-mediaelement.css,/wp-content/mu-plugins/wpcom-bbpress-premium-themes.css?m=1432920480j&cssminify=yes' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans';--wp--preset--font-family--alegreya: Alegreya;--wp--preset--font-family--arvo: Arvo;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda';--wp--preset--font-family--cabin: Cabin;--wp--preset--font-family--chivo: Chivo;--wp--preset--font-family--commissioner: Commissioner;--wp--preset--font-family--cormorant: Cormorant;--wp--preset--font-family--courier-prime: 'Courier Prime';--wp--preset--font-family--crimson-pro: 'Crimson Pro';--wp--preset--font-family--dm-mono: 'DM Mono';--wp--preset--font-family--dm-sans: 'DM Sans';--wp--preset--font-family--domine: Domine;--wp--preset--font-family--eb-garamond: 'EB Garamond';--wp--preset--font-family--epilogue: Epilogue;--wp--preset--font-family--figtree: Figtree;--wp--preset--font-family--fira-sans: 'Fira Sans';--wp--preset--font-family--fraunces: Fraunces;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono';--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans';--wp--preset--font-family--inter: Inter;--wp--preset--font-family--josefin-sans: 'Josefin Sans';--wp--preset--font-family--jost: Jost;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville';--wp--preset--font-family--libre-franklin: 'Libre Franklin';--wp--preset--font-family--literata: Literata;--wp--preset--font-family--lora: Lora;--wp--preset--font-family--merriweather: Merriweather;--wp--preset--font-family--montserrat: Montserrat;--wp--preset--font-family--newsreader: Newsreader;--wp--preset--font-family--nunito: Nunito;--wp--preset--font-family--open-sans: 'Open Sans';--wp--preset--font-family--overpass: Overpass;--wp--preset--font-family--petrona: Petrona;--wp--preset--font-family--piazzolla: Piazzolla;--wp--preset--font-family--playfair-display: 'Playfair Display';--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans';--wp--preset--font-family--poppins: Poppins;--wp--preset--font-family--raleway: Raleway;--wp--preset--font-family--roboto-slab: 'Roboto Slab';--wp--preset--font-family--roboto: Roboto;--wp--preset--font-family--rubik: Rubik;--wp--preset--font-family--sora: Sora;--wp--preset--font-family--source-sans-pro: 'Source Sans Pro';--wp--preset--font-family--source-serif-pro: 'Source Serif Pro';--wp--preset--font-family--space-mono: 'Space Mono';--wp--preset--font-family--texturina: Texturina;--wp--preset--font-family--work-sans: 'Work Sans';--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s0.wp.com/_static/??/wp-content/mu-plugins/jetpack-plugin/sun/_inc/genericons/genericons/genericons.css,/wp-content/themes/pub/stay/style.css?m=1685112397j&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='stay-source-sans-css' href='https://fonts-api.wp.com/css?family=Source+Sans+Pro%3A300%2C400&#038;ver=6.4-beta3-56826' media='all' />
+<link rel='stylesheet' id='stay-gilda-display-css' href='https://fonts-api.wp.com/css?family=Gilda+Display&#038;ver=6.4-beta3-56826' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-12-1' href='https://s0.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1k9PzdfNyU9OLMnMz0Ph6KblJGYW6SUXF+voY9dalJqUk58OZKbrA1UhcUGa7HNtDU1MLU1MLMwNTbIAmkQtqg==&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='print-css-13-1' href='https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035i&cssminify=yes' type='text/css' media='print' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-16-1' href='https://s0.wp.com/wp-content/themes/h4/global.css?m=1420737423i&cssminify=yes' type='text/css' media='all' />
+<script id='media-video-jwt-bridge-js-extra'>
+var videopressAjax = {"ajaxUrl":"https:\/\/yanderedev.wordpress.com\/wp-admin\/admin-ajax.php","bridgeUrl":"\/wp-content\/mu-plugins\/jetpack-plugin\/sun\/jetpack_vendor\/automattic\/jetpack-videopress\/build\/lib\/token-bridge.js","post_id":"16336"};
+</script>
+<script id='wpcom-actionbar-placeholder-js-extra'>
+var actionbardata = {"siteID":"66639893","postID":"0","siteURL":"http:\/\/yanderedev.wordpress.com","xhrURL":"https:\/\/yanderedev.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"cbb868af47","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJyFjcEKwjAQRH/IdFVowYP4KZI0a9k02cRkU+3fW6EVPXkaZuYNA4+k+siCLOAKhGjIo6oFsx6WTBHfYuPKDn657EWlHJ/z1hH3vlos79LdK+Z5lSYQ/4VUoCFrwW94ewtVJV8H4mWDknQ/rh5K5S26Tsg2ZtBVYtAi1H/giSzGlLEUMJW8BU8GJI7IymSyAy6Hl3A+dKeu3bdde3QvZp5nEg=='></script>
+<script id="rlt-proxy-js-after" type="text/javascript">
+	window.addEventListener( 'DOMContentLoaded', function() {
+		rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+	} );
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://yanderedev.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='https://wp.me/4vC4Z' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Yandere Simulator Development Blog" />
+<meta property="og:url" content="https://yanderedev.wordpress.com/" />
+<meta property="og:site_name" content="Yandere Simulator Development Blog" />
+<meta property="og:image" content="https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=200&#038;ts=1699203811" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="fb:app_id" content="249643311490" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=32" sizes="16x16" />
+<link rel="apple-touch-icon" href="https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=114" />
+<link rel='openid.server' href='https://yanderedev.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://yanderedev.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://yanderedev.wordpress.com/osd.xml" title="Yandere Simulator Development Blog" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#ffffff" />
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+				<script type="text/javascript">
+		function __ATA_CC() {var v = document.cookie.match('(^|;) ?personalized-ads-consent=([^;]*)(;|$)');return v ? 1 : 0;}
+		var __ATA_PP = { pt: 0, ht: 0, tn: 'stay', amp: false, siteid: 8982, blogid: 66639893, consent: __ATA_CC(), uloggedin: 0, flag: 6 };
+		var __ATA = __ATA || {};
+		__ATA.cmd = __ATA.cmd || [];
+		</script>
+		<script type="text/javascript">
+		(function(){var g=Date.now||function(){return+new Date};function h(a,b){a:{for(var c=a.length,d="string"==typeof a?a.split(""):a,e=0;e<c;e++)if(e in d&&b.call(void 0,d[e],e,a)){b=e;break a}b=-1}return 0>b?null:"string"==typeof a?a.charAt(b):a[b]};function k(a,b,c){c=null!=c?"="+encodeURIComponent(String(c)):"";if(b+=c){c=a.indexOf("#");0>c&&(c=a.length);var d=a.indexOf("?");if(0>d||d>c){d=c;var e=""}else e=a.substring(d+1,c);a=[a.substr(0,d),e,a.substr(c)];c=a[1];a[1]=b?c?c+"&"+b:b:c;a=a[0]+(a[1]?"?"+a[1]:"")+a[2]}return a};var l=0;function m(a,b){var c=document.createElement("script");c.src=a;c.onload=function(){b&&b(void 0)};c.onerror=function(){b&&b("error")};a=document.getElementsByTagName("head");var d;a&&0!==a.length?d=a[0]:d=document.documentElement;d.appendChild(c)}function n(a){var b=void 0===b?document.cookie:b;return(b=h(b.split("; "),function(c){return-1!=c.indexOf(a+"=")}))?b.split("=")[1]:""}function p(a){return"string"==typeof a&&0<a.length}
+		function r(a,b,c){b=void 0===b?"":b;c=void 0===c?".":c;var d=[];Object.keys(a).forEach(function(e){var f=a[e],q=typeof f;"object"==q&&null!=f||"function"==q?d.push(r(f,b+e+c)):null!==f&&void 0!==f&&(e=encodeURIComponent(b+e),d.push(e+"="+encodeURIComponent(f)))});return d.filter(p).join("&")}function t(a,b){a||((window.__ATA||{}).config=b.c,m(b.url))}var u=Math.floor(1E13*Math.random()),v=window.__ATA||{};window.__ATA=v;window.__ATA.cmd=v.cmd||[];v.rid=u;v.createdAt=g();var w=window.__ATA||{},x="s.pubmine.com";
+		w&&w.serverDomain&&(x=w.serverDomain);var y="//"+x+"/conf",z=window.top===window,A=window.__ATA_PP&&window.__ATA_PP.gdpr_applies,B="boolean"===typeof A?Number(A):null,C=window.__ATA_PP||null,D=z?document.referrer?document.referrer:null:null,E=z?window.location.href:document.referrer?document.referrer:null,F,G=n("__ATA_tuuid");F=G?G:null;var H=window.innerWidth+"x"+window.innerHeight,I=n("usprivacy"),J=r({gdpr:B,pp:C,rid:u,src:D,ref:E,tuuid:F,vp:H,us_privacy:I?I:null},"",".");
+		(function(a){var b=void 0===b?"cb":b;l++;var c="callback__"+g().toString(36)+"_"+l.toString(36);a=k(a,b,c);window[c]=function(d){t(void 0,d)};m(a,function(d){d&&t(d)})})(y+"?"+J);}).call(this);
+		</script>		<script type="text/javascript">
+
+			window.doNotSellCallback = function() {
+
+				var linkElements = [
+					'a[href="https://wordpress.com/?ref=footer_blog"]',
+					'a[href="https://wordpress.com/?ref=footer_website"]',
+					'a[href="https://wordpress.com/?ref=vertical_footer"]',
+					'a[href^="https://wordpress.com/?ref=footer_segment_"]',
+				].join(',');
+
+				var dnsLink = document.createElement( 'a' );
+				dnsLink.href = 'https://wordpress.com/advertising-program-optout/';
+				dnsLink.classList.add( 'do-not-sell-link' );
+				dnsLink.rel = 'nofollow';
+				dnsLink.style.marginLeft = '0.5em';
+				dnsLink.textContent = 'Do Not Sell or Share My Personal Information';
+
+				var creditLinks = document.querySelectorAll( linkElements );
+
+				if ( 0 === creditLinks.length ) {
+					return false;
+				}
+
+				Array.prototype.forEach.call( creditLinks, function( el ) {
+					el.insertAdjacentElement( 'afterend', dnsLink );
+				});
+
+				return true;
+			};
+
+		</script>
+		<meta name="application-name" content="Yandere Simulator Development Blog" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://yanderedev.wordpress.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s0.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s0.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s0.wp.com/i/favicon.ico" /><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<style type="text/css" id="custom-colors-css">#site-navigation h1.menu-toggle { color: #262626;}
+body { background-color: #ffffff;}
+.hotels-listing { background-color: #ffffff;}
+.social-links a { background-color: #ffffff;}
+.social-links a { color: #ffffff;}
+.featured h2 { background-color: #FFFFFF;}
+#home-widgets { background-color: #FFFFFF;}
+.navigation-main a:hover { background-color: #FFFFFF;}
+.navigation-main ul ul { background-color: #FFFFFF;}
+.navigation-main li:hover > a { background-color: #FFFFFF;}
+.navigation-main ul ul a:hover { background-color: #FFFFFF;}
+#site-navigation h1.menu-toggle.toggled-on { background-color: #FFFFFF;}
+#site-navigation.main-small-navigation .menu,#site-navigation.main-small-navigation .menu-primary-container,#site-navigation.main-small-navigation .menu-secondary-container { background-color: #FFFFFF;}
+.hentry { background-color: #FFFFFF;}
+.bypostauthor { background-color: #FFFFFF;}
+.widget_reservations { background-color: #FFFFFF;}
+#masthead .widget_reservations .contact-form, .widget_reservations .contact-form { background-color: #FFFFFF;}
+.widget_search input[type="search"] { background-color: #FFFFFF;}
+.widget_nav_menu a:hover { background-color: #FFFFFF;}
+.widget_calendar table { background-color: #FFFFFF;}
+.social-links li a:hover { background-color: #FFFFFF;}
+.navigation-main, .widget-title, #colophon, #calendar_wrap { border-color: #FFFFFF;}
+.wp-caption { border-color: #FFFFFF;}
+.sticky { border-color: #E5E5E5;}
+</style>
+</head>
+
+<body class="home blog custom-background wp-custom-logo customizer-styles-applied has-site-logo">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+						<a href="https://yanderedev.wordpress.com/" class="site-logo-link" rel="home" itemprop="url"><img width="1200" height="377" src="https://yanderedev.files.wordpress.com/2015/12/mylogo.png?w=1200" class="site-logo attachment-stay-logo" alt="" decoding="async" data-size="stay-logo" itemprop="logo" srcset="https://yanderedev.files.wordpress.com/2015/12/mylogo.png?w=1200 1200w, https://yanderedev.files.wordpress.com/2015/12/mylogo.png?w=150 150w, https://yanderedev.files.wordpress.com/2015/12/mylogo.png?w=300 300w, https://yanderedev.files.wordpress.com/2015/12/mylogo.png?w=768 768w, https://yanderedev.files.wordpress.com/2015/12/mylogo.png?w=1024 1024w, https://yanderedev.files.wordpress.com/2015/12/mylogo.png 1487w" sizes="(max-width: 1200px) 100vw, 1200px" data-attachment-id="1246" data-permalink="https://yanderedev.wordpress.com/mylogo/" data-orig-file="https://yanderedev.files.wordpress.com/2015/12/mylogo.png" data-orig-size="1487,467" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="MyLogo" data-image-description="" data-image-caption="" data-medium-file="https://yanderedev.files.wordpress.com/2015/12/mylogo.png?w=300" data-large-file="https://yanderedev.files.wordpress.com/2015/12/mylogo.png?w=920" /></a>			<h1 class="site-title"><a href="https://yanderedev.wordpress.com/" title="Yandere Simulator Development Blog" rel="home">Yandere Simulator Development Blog</a></h1>
+			<h2 class="site-description"></h2>
+		</hgroup>
+
+		
+		
+		<nav id="site-navigation" class="navigation-main" role="navigation">
+			<h1 class="menu-toggle">Menu</h1>
+			<div class="assistive-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+			<div class="menu"><ul>
+<li class="current_page_item"><a href="https://yanderedev.wordpress.com/">Home</a></li><li class="page_item page-item-1"><a href="https://yanderedev.wordpress.com/about/">About</a></li>
+<li class="page_item page-item-797"><a href="https://yanderedev.wordpress.com/known-bugs/">Bug Reporting</a></li>
+<li class="page_item page-item-11852"><a href="https://yanderedev.wordpress.com/discord/">Community</a></li>
+<li class="page_item page-item-10522"><a href="https://yanderedev.wordpress.com/crashes/">Crashes</a></li>
+<li class="page_item page-item-614"><a href="https://yanderedev.wordpress.com/patreon/">Donations</a></li>
+<li class="page_item page-item-680"><a href="https://yanderedev.wordpress.com/downloads/">Download</a></li>
+<li class="page_item page-item-948"><a href="https://yanderedev.wordpress.com/volunteer/">Volunteer</a></li>
+</ul></div>
+
+					</nav><!-- #site-navigation -->
+		<div class="clear"></div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+						
+				
+<article id="post-16336" class="post-16336 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/11/01/short-update/" rel="bookmark">Short Update</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/11/01/short-update/" title="12:00 am" rel="bookmark"><time class="entry-date" datetime="2023-11-01T00:00:02-07:00">November 1, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p>Just wanted to write a short blog post to give you guys a quick update on what&#8217;s going on. Click &#8220;Continue Reading&#8221; if you&#8217;re interested.</p>
+
+
+
+ <a href="https://yanderedev.wordpress.com/2023/11/01/short-update/#more-16336" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/11/01/short-update/#comments">69 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-16313" class="post-16313 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/10/15/small-announcements/" rel="bookmark">Small Announcements</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/10/15/small-announcements/" title="10:37 am" rel="bookmark"><time class="entry-date" datetime="2023-10-15T10:37:33-07:00">October 15, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p>Hello,</p>
+
+
+
+<p>I would like to make two small announcements today. If you&#8217;re a current (or former) volunteer who has been trying to contact me, or if you&#8217;re an adult-aged fan of the game, these announcements will be relevant to you.</p>
+
+
+
+<p>Click &#8220;Continue Reading&#8221; to hear the news.</p>
+
+
+
+ <a href="https://yanderedev.wordpress.com/2023/10/15/small-announcements/#more-16313" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>			<div id="atatags-26942-6547cae33ffc9"></div>
+			
+			<script>
+				__ATA.cmd.push(function() {
+					__ATA.initDynamicSlot({
+						id: 'atatags-26942-6547cae33ffc9',
+						location: 120,
+						formFactor: '001',
+						label: {
+							text: 'Advertisements',
+						},
+						creative: {
+							reportAd: {
+								text: 'Report this ad',
+							},
+							privacySettings: {
+								text: 'Privacy',
+								
+							}
+						}
+					});
+				});
+			</script>			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/10/15/small-announcements/#comments">176 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-16305" class="post-16305 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/10/01/moving-forward/" rel="bookmark">Moving Forward</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/10/01/moving-forward/" title="12:00 am" rel="bookmark"><time class="entry-date" datetime="2023-10-01T00:00:11-07:00">October 1, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p>I&#8217;ve been exhibiting horribly self-destructive behavior on a regular basis for a long time now.</p>
+
+
+
+<p>As a result of the many conversations I&#8217;ve had over the past few days, I think I can pinpoint the cause. My downward spiral is the result of consistently making incredibly unwise lifestyle choices that have caused my mental health to deteriorate massively over time.</p>
+
+
+
+<p>It didn&#8217;t hit me until recently just how bad things had gotten. Haven&#8217;t left the house since July 2019, no real-life acquaintances, 16+ hours on the computer every day, no vacations in half a decade, prioritizing work above my physical health…it shouldn&#8217;t be any surprise whatsoever that when you allow both your body and mind to completely waste away, you dissolve into a &#8220;mistake machine&#8221; &#8211; a person that is capable of nothing but bad decisions, who exists solely to cause problems for others.</p>
+
+
+
+<p>Since the last blog post, a lot of people have reached out to me to share the same advice: &#8220;See a therapist.&#8221; &#8220;Get hobbies that don&#8217;t involve a computer or TV screen.&#8221; &#8220;Step away from game development for a few months.&#8221; All of it can be summarized as: &#8220;Start making healthy life choices that will turn you into more of a normal human being.&#8221; And, I honestly can&#8217;t argue with that.</p>
+
+
+
+ <a href="https://yanderedev.wordpress.com/2023/10/01/moving-forward/#more-16305" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/10/01/moving-forward/#comments">165 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-16293" class="post-16293 post type-post status-publish format-standard hentry category-uncategorized mentions-yanderedev">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/09/25/im-sorry/" rel="bookmark">I&#8217;m sorry.</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/09/25/im-sorry/" title="8:46 pm" rel="bookmark"><time class="entry-date" datetime="2023-09-25T20:46:49-07:00">September 25, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p>Hi. You&#8217;ve probably heard some really concerning stuff over the last few days. You might have seen a video that has left you feeling worried, disappointed, and wondering what I have to say for myself.</p>
+
+
+
+<p>There&#8217;s a part of me that wants to say, &#8220;No, you don&#8217;t understand, the video was edited in an extremely dishonest and misleading way, blah blah blah…&#8221; but, no, I&#8217;m not going to focus on that.</p>
+
+
+
+<p>There&#8217;s a part of me that wants to do what I usually do, and type out a massive essay where I over-explain absolutely every single detail about the entire situation, provide context to absolutely everything, go point-by-point down the list of every possible fact that could make the situation easier to understand.</p>
+
+
+
+<p>But, no, I&#8217;m not going to do that. This isn&#8217;t a blog post about how, &#8220;Actually, you see, I didn&#8217;t really do anything all that bad, if you consider all the facts…&#8221; I&#8217;m just going to take accountability and own up to a really, REALLY huge fucking mistake that I&#8217;ve made.</p>
+
+
+
+ <a href="https://yanderedev.wordpress.com/2023/09/25/im-sorry/#more-16293" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/09/25/im-sorry/#comments">391 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-16283" class="post-16283 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/09/19/september-19th-bug-fixing-build-2/" rel="bookmark">September 19th Bug-Fixing&nbsp;Build</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/09/19/september-19th-bug-fixing-build-2/" title="6:30 pm" rel="bookmark"><time class="entry-date" datetime="2023-09-19T18:30:31-07:00">September 19, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p>Hello!</p>
+
+
+
+<p>There was a bug in the latest build that wasn&#8217;t absolutely game-breaking, but was definitely easy to notice. I don&#8217;t want people to waste their time reporting a bug that has already been fixed, so I&#8217;m uploading a new build with that issue resolved &#8211; along with various other improvements and fixes.</p>
+
+
+
+<p>To see a list of everything that has been added/changed/fixed/improved in the latest build, please scroll down past this phenomenal cosplay by <strong><a href="https://www.tiktok.com/@cos._.prince1395">@cos._.prince1395</a></strong>!</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-tiktok wp-block-embed-tiktok"><div class="wp-block-embed__wrapper">
+<div class="embed-tiktok"><blockquote class="tiktok-embed" cite="https://www.tiktok.com/@cos._.prince1395/video/7276971738389302571" data-video-id="7276971738389302571" data-embed-from="oembed" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@cos._.prince1395" href="https://www.tiktok.com/@cos._.prince1395?refer=embed">@cos._.prince1395</a> <p><a title="ayanoaishi" target="_blank" href="https://www.tiktok.com/tag/ayanoaishi?refer=embed">#ayanoaishi</a> <a title="yanderesimulator" target="_blank" href="https://www.tiktok.com/tag/yanderesimulator?refer=embed">#yanderesimulator</a> <a title="yanderechan" target="_blank" href="https://www.tiktok.com/tag/yanderechan?refer=embed">#yanderechan</a> <a title="yanderecosplay" target="_blank" href="https://www.tiktok.com/tag/yanderecosplay?refer=embed">#yanderecosplay</a> <a title="ayanoaishicosplay" target="_blank" href="https://www.tiktok.com/tag/ayanoaishicosplay?refer=embed">#ayanoaishicosplay</a> <a title="crosscosplay" target="_blank" href="https://www.tiktok.com/tag/crosscosplay?refer=embed">#crosscosplay</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> </p> <a target="_blank" title="♬ original sound - 𖥔࣪˖ 𝐃𝖺𝗓𝗓𝗅𝖾" href="https://www.tiktok.com/music/original-sound-7238656334940359429?refer=embed">♬ original sound &#8211; 𖥔࣪˖ 𝐃𝖺𝗓𝗓𝗅𝖾</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script></div>
+</div></figure>
+
+
+
+ <a href="https://yanderedev.wordpress.com/2023/09/19/september-19th-bug-fixing-build-2/#more-16283" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/09/19/september-19th-bug-fixing-build-2/#comments">62 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-16274" class="post-16274 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/09/17/september-17th-bug-fixing-update/" rel="bookmark">September 17th Bug-Fixing&nbsp;Update</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/09/17/september-17th-bug-fixing-update/" title="1:38 am" rel="bookmark"><time class="entry-date" datetime="2023-09-17T01:38:39-07:00">September 17, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p class="has-text-align-center"><em>Curious what&#8217;s new? <strong><a href="https://yanderedev.wordpress.com/2023/09/15/big-september-update/">Click here!</a></strong> Concerned about the recent Unity news? <strong><a href="https://yanderedev.wordpress.com/2023/09/14/regarding-the-recent-unity-controversy/">Click here!</a></strong></em></p>
+
+
+
+<p>Hiya! I&#8217;ve got a new build for you with 11 improvements and 12 bug fixes.</p>
+
+
+
+<p>To see a list of everything that has been added/changed/fixed/improved in the latest build, scroll down past this beautiful artwork by <a href="https://www.instagram.com/zaacs0/"><strong>saascs</strong></a>!</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler"><div class="wp-block-embed__wrapper">
+<a href="https://i.postimg.cc/XYZ0G3Yh/zaacs0.png"><img src="https://i.postimg.cc/XYZ0G3Yh/zaacs0.png" style="max-width:100%;" /></a>
+</div></figure>
+
+
+
+ <a href="https://yanderedev.wordpress.com/2023/09/17/september-17th-bug-fixing-update/#more-16274" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/09/17/september-17th-bug-fixing-update/#comments">58 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-16256" class="post-16256 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/09/15/big-september-update/" rel="bookmark">Big September Update</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/09/15/big-september-update/" title="3:06 pm" rel="bookmark"><time class="entry-date" datetime="2023-09-15T15:06:30-07:00">September 15, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p class="has-text-align-center"><em>Curious to know if the recent Unity controversy will affect Yandere Simulator? <strong><a href="https://yanderedev.wordpress.com/2023/09/14/regarding-the-recent-unity-controversy/">Click here</a></strong> to find out!</em></p>
+
+
+
+<p>Hello! I&#8217;ve prepared a new build for you today! I&#8217;m proud of this one, because I was able to take care of a lot of &#8220;dangling loose ends&#8221; that I really wanted to resolve before continuing forward with development. I&#8217;ll elaborate more about it at the bottom of this blog post.</p>
+
+
+
+<p>To read a list of everything that was added / changed / fixed / improved in the latest build, please scroll down past this chilling artwork by <strong><a href="https://twitter.com/unknown_ANN0">unknown_ANN0</a></strong>!</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler"><div class="wp-block-embed__wrapper">
+<a href="https://i.postimg.cc/VvwKk5X8/unknown-ANN0.png"><img src="https://i.postimg.cc/VvwKk5X8/unknown-ANN0.png" style="max-width:100%;" /></a>
+</div></figure>
+
+
+
+ <a href="https://yanderedev.wordpress.com/2023/09/15/big-september-update/#more-16256" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/09/15/big-september-update/#comments">73 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-16239" class="post-16239 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/09/14/regarding-the-recent-unity-controversy/" rel="bookmark">Regarding the Recent Unity Controversy&#8230;</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/09/14/regarding-the-recent-unity-controversy/" title="10:18 pm" rel="bookmark"><time class="entry-date" datetime="2023-09-14T22:18:03-07:00">September 14, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p>Next build? Coming soon! Less than 24 hours. In the meantime, though&#8230;</p>
+
+
+
+<p>There is a certain topic that I&#8217;ve been asked about dozens of times over the past few days, so I figure that I should probably write out all of my thoughts in one place, so that I can simply link people to this post whenever they ask me about the subject.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler"><div class="wp-block-embed__wrapper">
+<a href="https://i.postimg.cc/FzGsQ86s/Why.png"><img src="https://i.postimg.cc/FzGsQ86s/Why.png" style="max-width:100%;" /></a>
+</div></figure>
+
+
+
+<p>Click &#8220;Continue Reading&#8221; for a very, <strong><em>very </em></strong>long blog post.</p>
+
+
+
+ <a href="https://yanderedev.wordpress.com/2023/09/14/regarding-the-recent-unity-controversy/#more-16239" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/09/14/regarding-the-recent-unity-controversy/#comments">33 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-16234" class="post-16234 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/09/10/answering-16-questions-for-victorialand5/" rel="bookmark">Answering 16 Questions for&nbsp;Victorialand5</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/09/10/answering-16-questions-for-victorialand5/" title="4:33 am" rel="bookmark"><time class="entry-date" datetime="2023-09-10T04:33:13-07:00">September 10, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p>Hi again! The next build isn&#8217;t ready yet, but I&#8217;ve got something else for you!</p>
+
+
+
+<p>Remember when I made <strong><a href="https://www.youtube.com/watch?v=mdM5UpPEPig">a video</a></strong> where I answered some questions that were asked by <strong><a href="https://www.youtube.com/c/Victorialand5/videos">a YouTuber named Victorialand5</a></strong>? And followed it up with <strong><a href="https://www.youtube.com/watch?v=iUHfbzIg71E&amp;embeds_referring_euri=https%3A%2F%2Fyanderedev.wordpress.com%2F&amp;source_ve_path=MjM4NTE&amp;feature=emb_title">a second video</a></strong> where I answered even more questions for her? Well, guess what? I did it again!</p>
+
+
+
+<p>Check it out!</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="920" height="518" src="https://www.youtube.com/embed/2UFo0uZ9w70?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span>
+</div></figure>
+			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/09/10/answering-16-questions-for-victorialand5/#comments">31 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-16219" class="post-16219 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yanderedev.wordpress.com/2023/09/01/september-update-status-report/" rel="bookmark">September Update Status&nbsp;Report</a></h1>
+				<div class="entry-meta">
+			Posted on <a href="https://yanderedev.wordpress.com/2023/09/01/september-update-status-report/" title="12:22 am" rel="bookmark"><time class="entry-date" datetime="2023-09-01T00:22:41-07:00">September 1, 2023</time></a><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://yanderedev.wordpress.com/author/yanderedev/" title="View all posts by YandereDev" rel="author">YandereDev</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p>Hello!</p>
+
+
+
+<p>I usually release a new build of the game on the 1st and 15th days of every month. However, I won&#8217;t be releasing a new build today.</p>
+
+
+
+<p>I&#8217;ve made around 15 improvements and bug fixes to the game since the last build, so, potentially, I <em><strong>could </strong></em>just release a new build containing those changes&#8230;but I feel that the build would be underwhelming, since it doesn&#8217;t contain a &#8220;big new feature&#8221; or a significant amount of exciting new content.</p>
+
+
+
+<p>I don&#8217;t want to release something that will just make you say, &#8220;Oh, that&#8217;s it? That&#8217;s all? Meh. I don&#8217;t really care&#8230;&#8221; so, I feel like I should just keep working on the game, and not release a new build until I&#8217;ve got something I&#8217;m proud of that I really want to share with you.</p>
+
+
+
+<p>In case you&#8217;re thinking, <em>&#8220;Hey, wait a minute! Maybe there&#8217;s no build today because he hasn&#8217;t been working on the game, and hasn&#8217;t made any progress at all!&#8221;</em> I&#8217;ll post a video of my recent progress on <strong><a href="https://www.patreon.com/YandereDev">my Patreon</a></strong>, just to pre-emptively kill any potential conspiracy theories that I&#8217;m not actually getting any work done.</p>
+
+
+
+<p>I have a few more thoughts to share about the subject of recent progress and future progress. If you&#8217;re interested, you can scroll down past this cool artwork that was tweeted by <strong><a href="https://twitter.com/Tangsen_Malum">Tangsen_Malum</a></strong>!</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="und" dir="ltr">(2/2) <a href="https://t.co/290dd73mPC">pic.twitter.com/290dd73mPC</a></p>&mdash; Tangsen糖森🍎 (@Tangsen_Malum) <a href="https://twitter.com/Tangsen_Malum/status/1695905167932272801?ref_src=twsrc%5Etfw">August 27, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div></figure>
+
+
+
+ <a href="https://yanderedev.wordpress.com/2023/09/01/september-update-status-report/#more-16219" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>			</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+					
+					
+				<span class="sep"> | </span>
+		<span class="comments-link"><a href="https://yanderedev.wordpress.com/2023/09/01/september-update-status-report/#comments">75 Comments</a></span>
+		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+				<nav role="navigation" id="nav-below" class="navigation-paging">
+		<h1 class="assistive-text">Post navigation</h1>
+
+	
+				<div class="previous"><a href="https://yanderedev.wordpress.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+		
+		
+	
+	</nav><!-- #nav-below -->
+	
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+	<div id="secondary" class="widget-area" role="complementary">
+				
+			<aside id="search" class="widget widget_search">
+					<form method="get" id="searchform" class="searchform" action="https://yanderedev.wordpress.com/" role="search">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="search" class="field" name="s" value="" id="s" placeholder="Search &hellip;" />
+		<input type="submit" class="submit" id="searchsubmit" value="Search" />
+	</form>
+			</aside>
+
+			<aside id="archives" class="widget">
+				<h1 class="widget-title">Archives</h1>
+				<ul>
+						<li><a href='https://yanderedev.wordpress.com/2023/11/'>November 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/10/'>October 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/09/'>September 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/08/'>August 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/07/'>July 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/06/'>June 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/05/'>May 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/04/'>April 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/03/'>March 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/02/'>February 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2023/01/'>January 2023</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/12/'>December 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/11/'>November 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/10/'>October 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/09/'>September 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/08/'>August 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/07/'>July 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/06/'>June 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/05/'>May 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/04/'>April 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/03/'>March 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/02/'>February 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2022/01/'>January 2022</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/12/'>December 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/11/'>November 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/10/'>October 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/09/'>September 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/08/'>August 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/07/'>July 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/06/'>June 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/05/'>May 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/04/'>April 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/03/'>March 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/02/'>February 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2021/01/'>January 2021</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/12/'>December 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/11/'>November 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/10/'>October 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/09/'>September 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/08/'>August 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/07/'>July 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/06/'>June 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/05/'>May 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/04/'>April 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/03/'>March 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/02/'>February 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2020/01/'>January 2020</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/12/'>December 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/11/'>November 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/10/'>October 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/09/'>September 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/08/'>August 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/07/'>July 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/06/'>June 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/05/'>May 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/04/'>April 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/03/'>March 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/02/'>February 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2019/01/'>January 2019</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/12/'>December 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/11/'>November 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/10/'>October 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/09/'>September 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/08/'>August 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/07/'>July 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/06/'>June 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/05/'>May 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/04/'>April 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/03/'>March 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/02/'>February 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2018/01/'>January 2018</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/12/'>December 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/11/'>November 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/10/'>October 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/09/'>September 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/08/'>August 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/07/'>July 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/06/'>June 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/05/'>May 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/04/'>April 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/03/'>March 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/02/'>February 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2017/01/'>January 2017</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/12/'>December 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/11/'>November 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/10/'>October 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/09/'>September 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/08/'>August 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/07/'>July 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/06/'>June 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/05/'>May 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/04/'>April 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/03/'>March 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/02/'>February 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2016/01/'>January 2016</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/12/'>December 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/11/'>November 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/10/'>October 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/09/'>September 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/08/'>August 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/07/'>July 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/06/'>June 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/05/'>May 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/04/'>April 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/03/'>March 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/02/'>February 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2015/01/'>January 2015</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2014/12/'>December 2014</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2014/11/'>November 2014</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2014/10/'>October 2014</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2014/09/'>September 2014</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2014/08/'>August 2014</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2014/07/'>July 2014</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2014/06/'>June 2014</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2014/05/'>May 2014</a></li>
+	<li><a href='https://yanderedev.wordpress.com/2014/04/'>April 2014</a></li>
+				</ul>
+			</aside>
+
+			<aside id="meta" class="widget">
+				<h1 class="widget-title">Meta</h1>
+				<ul>
+					<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li>					<li><a href="https://yanderedev.wordpress.com/wp-login.php">Log in</a></li>
+									</ul>
+			</aside>
+
+			</div><!-- #secondary -->
+
+		<div class="clear"></div>
+	</div><!-- #main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						
+			
+					</div><!-- .site-info -->
+
+		
+		<ul class="social-links clearfix">
+			
+						<li class="twitter-link">
+				<a href="https://twitter.com/YandereDev" class="genericon" title="Twitter" target="_blank">
+					Twitter				</a>
+			</li>
+			
+			
+			
+			
+			
+						<li class="youtube-link">
+				<a href="https://www.youtube.com/channel/UC1EBJfK7ltjYUFyzysKxr1g" class="genericon" title="YouTube" target="_blank">
+					YouTube				</a>
+			</li>
+					</ul>
+			</footer><!-- #colophon -->
+</div><!-- #page -->
+
+		<script type="text/javascript">
+		var infiniteScroll = {"settings":{"id":"content","ajaxurl":"https:\/\/yanderedev.wordpress.com\/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"01.09.23","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":1,"history":{"host":"yanderedev.wordpress.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"search_columns":[],"lazy_load_term_meta":false,"posts_per_page":10,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":true,"update_post_term_cache":true,"update_menu_item_cache":false,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"query_before":"2023-11-05 09:03:31","last_post_date":"2023-09-01 00:22:41","body_class":"infinite-scroll neverending","loading_text":"Loading new page","stats":"blog=66639893&v=wpcom&tz=-7&user_id=0&subd=yanderedev&x_pagetype=infinite"}};
+		</script>
+		<!--  -->
+		<!-- CCPA [start] -->
+		<script type="text/javascript">
+			( function () {
+
+				var setupPrivacy = function() {
+
+					// Minimal Mozilla Cookie library
+					// https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie/Simple_document.cookie_framework
+					var cookieLib = window.cookieLib = {getItem:function(e){return e&&decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent(e).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*([^;]*).*$)|^.*$"),"$1"))||null},setItem:function(e,o,n,t,r,i){if(!e||/^(?:expires|max\-age|path|domain|secure)$/i.test(e))return!1;var c="";if(n)switch(n.constructor){case Number:c=n===1/0?"; expires=Fri, 31 Dec 9999 23:59:59 GMT":"; max-age="+n;break;case String:c="; expires="+n;break;case Date:c="; expires="+n.toUTCString()}return"rootDomain"!==r&&".rootDomain"!==r||(r=(".rootDomain"===r?".":"")+document.location.hostname.split(".").slice(-2).join(".")),document.cookie=encodeURIComponent(e)+"="+encodeURIComponent(o)+c+(r?"; domain="+r:"")+(t?"; path="+t:"")+(i?"; secure":""),!0}};
+
+					// Implement IAB USP API.
+					window.__uspapi = function( command, version, callback ) {
+
+						// Validate callback.
+						if ( typeof callback !== 'function' ) {
+							return;
+						}
+
+						// Validate the given command.
+						if ( command !== 'getUSPData' || version !== 1 ) {
+							callback( null, false );
+							return;
+						}
+
+						// Check for GPC. If set, override any stored cookie.
+						if ( navigator.globalPrivacyControl ) {
+							callback( { version: 1, uspString: '1YYN' }, true );
+							return;
+						}
+
+						// Check for cookie.
+						var consent = cookieLib.getItem( 'usprivacy' );
+
+						// Invalid cookie.
+						if ( null === consent ) {
+							callback( null, false );
+							return;
+						}
+
+						// Everything checks out. Fire the provided callback with the consent data.
+						callback( { version: 1, uspString: consent }, true );
+					};
+
+					// Initialization.
+					document.addEventListener( 'DOMContentLoaded', function() {
+
+						// Internal functions.
+						var setDefaultOptInCookie = function() {
+							var value = '1YNN';
+							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
+							cookieLib.setItem( 'usprivacy', value, 365 * 24 * 60 * 60, '/', domain );
+						};
+
+						var setDefaultOptOutCookie = function() {
+							var value = '1YYN';
+							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
+							cookieLib.setItem( 'usprivacy', value, 24 * 60 * 60, '/', domain );
+						};
+
+						var setDefaultNotApplicableCookie = function() {
+							var value = '1---';
+							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
+							cookieLib.setItem( 'usprivacy', value, 24 * 60 * 60, '/', domain );
+						};
+
+						var setCcpaAppliesCookie = function( applies ) {
+							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
+							cookieLib.setItem( 'ccpa_applies', applies, 24 * 60 * 60, '/', domain );
+						}
+
+						var maybeCallDoNotSellCallback = function() {
+							if ( 'function' === typeof window.doNotSellCallback ) {
+								return window.doNotSellCallback();
+							}
+
+							return false;
+						}
+
+						// Look for usprivacy cookie first.
+						var usprivacyCookie = cookieLib.getItem( 'usprivacy' );
+
+						// Found a usprivacy cookie.
+						if ( null !== usprivacyCookie ) {
+
+							// If the cookie indicates that CCPA does not apply, then bail.
+							if ( '1---' === usprivacyCookie ) {
+								return;
+							}
+
+							// CCPA applies, so call our callback to add Do Not Sell link to the page.
+							maybeCallDoNotSellCallback();
+
+							// We're all done, no more processing needed.
+							return;
+						}
+
+						// We don't have a usprivacy cookie, so check to see if we have a CCPA applies cookie.
+						var ccpaCookie = cookieLib.getItem( 'ccpa_applies' );
+
+						// No CCPA applies cookie found, so we'll need to geolocate if this visitor is from California.
+						// This needs to happen client side because we do not have region geo data in our $SERVER headers,
+						// only country data -- therefore we can't vary cache on the region.
+						if ( null === ccpaCookie ) {
+
+							var request = new XMLHttpRequest();
+							request.open( 'GET', 'https://public-api.wordpress.com/geo/', true );
+
+							request.onreadystatechange = function () {
+								if ( 4 === this.readyState ) {
+									if ( 200 === this.status ) {
+
+										// Got a geo response. Parse out the region data.
+										var data = JSON.parse( this.response );
+										var region      = data.region ? data.region.toLowerCase() : '';
+										var ccpa_applies = ['california', 'colorado', 'connecticut', 'utah', 'virginia'].indexOf( region ) > -1;
+										// Set CCPA applies cookie. This keeps us from having to make a geo request too frequently.
+										setCcpaAppliesCookie( ccpa_applies );
+
+										// Check if CCPA applies to set the proper usprivacy cookie.
+										if ( ccpa_applies ) {
+											if ( maybeCallDoNotSellCallback() ) {
+												// Do Not Sell link added, so set default opt-in.
+												setDefaultOptInCookie();
+											} else {
+												// Failed showing Do Not Sell link as required, so default to opt-OUT just to be safe.
+												setDefaultOptOutCookie();
+											}
+										} else {
+											// CCPA does not apply.
+											setDefaultNotApplicableCookie();
+										}
+									} else {
+										// Could not geo, so let's assume for now that CCPA applies to be safe.
+										setCcpaAppliesCookie( true );
+										if ( maybeCallDoNotSellCallback() ) {
+											// Do Not Sell link added, so set default opt-in.
+											setDefaultOptInCookie();
+										} else {
+											// Failed showing Do Not Sell link as required, so default to opt-OUT just to be safe.
+											setDefaultOptOutCookie();
+										}
+									}
+								}
+							};
+
+							// Send the geo request.
+							request.send();
+						} else {
+							// We found a CCPA applies cookie.
+							if ( ccpaCookie === 'true' ) {
+								if ( maybeCallDoNotSellCallback() ) {
+									// Do Not Sell link added, so set default opt-in.
+									setDefaultOptInCookie();
+								} else {
+									// Failed showing Do Not Sell link as required, so default to opt-OUT just to be safe.
+									setDefaultOptOutCookie();
+								}
+							} else {
+								// CCPA does not apply.
+								setDefaultNotApplicableCookie();
+							}
+						}
+					} );
+				};
+
+				// Kickoff initialization.
+				if ( window.defQueue && defQueue.isLOHP && defQueue.isLOHP === 2020 ) {
+					defQueue.items.push( setupPrivacy );
+				} else {
+					setupPrivacy();
+				}
+
+			} )();
+		</script>
+
+		<!-- CCPA [end] -->
+		<script src='//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202344aeb24331352c11f5446dd670d75325a3c4e3b8a6bd7f92ee1c88f8b8636d4d9c' id='grofiles-cards-js'></script>
+<script id='wpgroho-js-extra'>
+var WPGroHo = {"my_hash":""};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile': 'Edit your profile',
+							'View profile': 'View profile',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.': 'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	</div>
+		<div id="infinite-footer">
+			<div class="container">
+				<div class="blog-info">
+					<a id="infinity-blog-title" href="https://yanderedev.wordpress.com/" rel="home">
+						Yandere Simulator Development Blog					</a>
+				</div>
+				<div class="blog-credits">
+					 				</div>
+			</div>
+		</div><!-- #infinite-footer -->
+			<div id="actionbar" style="display: none;"
+			class="actnbr-pub-stay actnbr-has-follow">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Follow</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Following</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://yanderedev.wordpress.com">
+				<img alt='' src='https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=50&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' srcset='https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=50&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1x, https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=75&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1.5x, https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=100&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 2x, https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=150&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 3x, https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=200&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 4x' class='avatar avatar-50' height='50' width='50' />				Yandere Simulator Development Blog			</a>
+		</li>
+										<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Join 20,168 other followers</div>
+																					<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="66639893" />
+										<input type="hidden" name="source" value="https://yanderedev.wordpress.com/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="e7b9df9819" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fyanderedev.wordpress.com%2F2023%2F11%2F01%2Fshort-update%2F&#038;signup_flow=account">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+									<li class="actnbr-sitename">
+			<a href="https://yanderedev.wordpress.com">
+				<img alt='' src='https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=50&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' srcset='https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=50&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1x, https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=75&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1.5x, https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=100&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 2x, https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=150&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 3x, https://secure.gravatar.com/blavatar/4b5cbc6f2ae84840590236e740e0df20d8d16ba36741ae06e75524992ff02741?s=200&#038;d=https%3A%2F%2Fs0.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 4x' class='avatar avatar-50' height='50' width='50' />				Yandere Simulator Development Blog			</a>
+		</li>
+								<li class="actnbr-folded-customize">
+								<a href="https://yanderedev.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fyanderedev.wordpress.com%2F">
+									<svg class="gridicon gridicons-customize" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z"/></g></svg>									<span>Customize</span>
+								</a>
+							</li>
+																<li class="actnbr-folded-follow">
+												<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Follow</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Following</span>
+		</a>
+										</li>
+																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+									<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fyanderedev.wordpress.com%2F2023%2F11%2F01%2Fshort-update%2F&#038;signup_flow=account">Log in</a></li>
+																	<li class="flb-report">
+										<a href="http://en.wordpress.com/abuse/?report_url=https://yanderedev.wordpress.com" target="_blank">
+											Report this content										</a>
+									</li>
+																	<li class="actnbr-reader">
+										<a href="https://wordpress.com/read/feeds/19628038">
+											View site in Reader										</a>
+									</li>
+																	<li class="actnbr-subs">
+										<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+									</li>
+																		<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+															</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "load", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20231025";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231031";
+	script.defer = true;
+	document.body.appendChild( script );
+} );
+</script>
+
+			<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Loading Comments...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<div id="jp-carousel-comment-form-commenting-as">
+												<p id="jp-carousel-commenting-as">
+													You must be <a href="#" class="jp-carousel-comment-login">logged in</a> to post a comment.												</p>
+											</div>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/_static/??-eJydzEEKwyAQheEL1Q5JocFFyFmsDkEzjuI4hNy+FJptFln+j8cHezW+cEfukNVU0jWyQMJend/+DaIMuQQlFPCuFRUkkD1WbOajHAifXuQB97Hzcw43vR4Jg1kdEbbjqn7+kufhbUc7vYZxSl9CS2RI&cssminify=yes' type='text/css' media='all' />
+<script id='jetpack-carousel-js-extra'>
+var jetpackSwiperLibraryPath = {"url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/sun\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/yanderedev.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"dd6b481580","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/yanderedev.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fyanderedev.wordpress.com%2F2023%2F09%2F01%2Fseptember-update-status-report%2F","blog_id":"66639893","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=66639893&v=wpcom&tz=-7&user_id=0&subd=yanderedev","is_public":"1"};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJyNj9EOgjAMRX/I2RhB44PxU8wYAzu6bqGbyN/LgxhDjPLUnObe214YojKBk+UEPqtIuUUWcDZFbboXg2SGK7KBKiPVgNwgY7JKTB+IZh63HnnrZAMfoelmvRWIuQJJegQnwPqOrU4Y1oilw6gIuVNNMFlUg481rmkuZavrGd2HLJbesnnxrd/q1IRka9VqItuPv+jPlfkZNUQT/AIn38Wfd4dTUe6PRVm6J4JUs/A='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<script type="text/javascript">
+			(function() {
+				var extend = function(out) {
+					out = out || {};
+
+					for (var i = 1; i < arguments.length; i++) {
+						if (!arguments[i])
+						continue;
+
+						for (var key in arguments[i]) {
+						if (arguments[i].hasOwnProperty(key))
+							out[key] = arguments[i][key];
+						}
+					}
+
+					return out;
+				};
+				extend( window.infiniteScroll.settings.scripts, ["mobile-useragent-info","rlt-proxy","jquery-core","jquery-migrate","jquery","media-video-jwt-bridge","wpcom-actionbar-placeholder","grofiles-cards","wpgroho","the-neverending-homepage","stay-navigation","stay-skip-link-focus-fix","stay-script","jetpack-carousel","tiled-gallery","carousel-wpcom"] );
+				extend( window.infiniteScroll.settings.styles, ["wordads-global","the-neverending-homepage","wp-block-library","mediaelement","wp-mediaelement","jetpack-layout-grid","jetpack-ratings","coblocks-frontend","wpcom-core-compat-playlist-styles","wpcom-bbpress2-staff-css","genericons","stay-style","geo-location-flair","reblogging","a8c-global-print","h4-global","wp-emoji-styles","videopress-video-style","classic-theme-styles","global-styles","stay-source-sans","stay-gilda-display","jetpack-global-styles-frontend-style","jetpack-carousel-swiper-css","jetpack-carousel","tiled-gallery"] );
+			})();
+		</script>
+				<span id="infinite-aria" aria-live="polite"></span>
+		<script src="//stats.wp.com/w.js?64" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'66639893','blog_tz':'-7','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'66639893','v':'wpcom','tz':'-7','user_id':'0','subd':'yanderedev'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1hV3xrb2xUT3JBbjREZWgvK29XZW1Bbl82dys4Zj9tVXI0M0drUj1wLTgsNzdteT9DUTdrMjVlLV9zaTllS1IvcUouYUJbMFhDTGVrR0p3JWl6TD1NNGU3djFicH5yZHMlV1NBS3l8Z3xhZ0IvcSxjK1hXPUJmLHZ+Y0IxdGxfPWxjP3JbSUJsTUkxY3h+VU54S2JkYlRycnNHVExDMUtvU21JXWs/Vl93Nz9VcWxuZ284ZV89bj8rZHpMPzV6OWQ0TFB8OHo0UXQ3WFkxaGF+ciwwJl1UOHhPYmhQN21VLzhF'}]);
+_stq.push([ 'clickTrackerInit', '66639893', '0' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
+<!--
+	generated in 0.194 seconds
+	105389 bytes batcached for 300 seconds
+-->
